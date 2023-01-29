@@ -1,18 +1,53 @@
 # Places Around Me
+
 ## AIM:
 To develop a website to display details about the places around my house.
 
 ## Design Steps:
+### Step 1: Create a new django project and app
 
-### Step 1:
-Write your own steps here.
-### Step 2:
+### Step 2: Type code in views and urls.py
 
+### Step 3: create HTML files according to your places
+
+### step 4: Give deatils about that places in html file
+
+### step 5: Run the server.
 ## Code:
-Include your HTML code here
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RESORT MAP</title>
+        </head>
+        <body>
+             <img src="/static/images/map1.jpg" height="884" width="1684" 
+             usemap="#resortmap">
+             <MAP name="resortmap">
+                 <AREA shape="RECT" coords="154,444,301,558"
+                       href="/OceanSprayResort/" Title="OceanSprayResort">
+                 <AREA shape="RECT" coords="573,384,656,547"
+                       href="/swimmingpool/"Title="swimmingpool">
 
+                 <AREA shape="RECT" coords="38,610,224,770"
+                       href="/carparking/"Title="carparking">
+
+                <AREA shape="RECT"  coords="537,784,874,687"
+                       href="/rooms/"Title="rooms">
+
+                <AREA shape="RECT" coords="203,130,274,408"
+                        href="/dininghall/"Title="dininghall">
+             </MAP>
+    
+            
+        </body>
+
+</html>
+```
 ## Output:
-Include your output screenshot here
+ ![image](https://user-images.githubusercontent.com/119560345/215309179-e44b1e88-3cb3-4b73-99d7-6838a92b44a9.png)
+![around me]
+ ![image](https://user-images.githubusercontent.com/119560345/215309218-ba11c0f0-92f5-4c23-99bc-c345dd0ae4c7.png)
 
 ## Result:
-Write your result
+Thus a website is developed to display details about the places around my house.
